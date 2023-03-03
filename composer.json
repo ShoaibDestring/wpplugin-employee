@@ -1,0 +1,20 @@
+{
+    "name": "destringpc1/wpplugin-employee",
+    "description": "I developed my first plugin name wpplugin-empolyee with the functionality of creating table, save data and display it.",
+    "autoload": {
+        "psr-4": {
+            "Destringpc1\\WppluginEmployee\\": "src/"
+        },
+        "files" : [
+        	"src/constants.php",
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Muhammad Shoaib",
+            "email": "m.shoaib2k15@gmail.com"
+        }
+    ],
+    "require": {}
+}
